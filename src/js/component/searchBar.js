@@ -26,3 +26,11 @@ SearchBar.propTypes = {
 };
 
 export default SearchBar;
+
+// SearchBar component 
+// props passed to the component: keyword and setKeyword. 
+// keyword variable is assigned to the value of the input 
+// setKeyword variable is assigned as a function to handle the change event of the input. 
+// These variables are initiated in the parent component (SearchPage.js) 
+// which makes the SearcBar.Js just act as a “tool” 
+// to read and change the keyword value in the SearchPage.js
